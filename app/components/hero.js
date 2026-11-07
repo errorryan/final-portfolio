@@ -56,10 +56,7 @@ export default function Hero() {
           </div>
 
           {/* LOCATION */}
-          <div className="mt-12 flex items-center gap-3 text-sm text-gray-500 dark:text-gray-400">
-            <span className="w-2 h-2 bg-black dark:bg-white rounded-full"></span>
-            {portfolioData.location}
-          </div>
+        
 
         </div>
 

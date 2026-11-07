@@ -47,9 +47,7 @@ export default function Certificates() {
               {/* Certificate Details */}
               <div className="p-6">
 
-                <p className="text-xs uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-3">
-                  Certificate {String(index + 1).padStart(2, "0")}
-                </p>
+               
 
                 <h3 className="text-lg font-bold mb-3 leading-snug text-black dark:text-white">
                   {certificate.title}

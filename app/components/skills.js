@@ -77,10 +77,7 @@ export default function Skills() {
 
         {/* Section Heading */}
         <div className="mb-16">
-          <p className="text-sm font-semibold tracking-[0.3em] uppercase text-gray-500 dark:text-gray-400 mb-4">
-            What I Work With
-          </p>
-
+         
           <h2 className="text-4xl md:text-6xl font-bold tracking-tight mb-5">
             Skills & Technologies
             <span className="text-gray-400 dark:text-gray-500">.</span>
@@ -107,9 +104,7 @@ export default function Skills() {
                   {skill.category}
                 </h3>
 
-                <span className="text-sm font-semibold text-gray-400 dark:text-gray-500">
-                  {String(index + 1).padStart(2, "0")}
-                </span>
+               
               </div>
 
               {/* Skills with Icons */}

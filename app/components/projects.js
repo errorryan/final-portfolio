@@ -59,9 +59,7 @@ export default function Projects() {
               <div className="p-7 flex flex-col flex-1">
 
                 {/* Project Number */}
-                <p className="text-xs font-semibold tracking-[0.2em] text-gray-400 dark:text-gray-500 mb-4">
-                  PROJECT {String(index + 1).padStart(2, "0")}
-                </p>
+               
 
                 {/* Title */}
                 <h3 className="text-2xl font-bold mb-4 text-black dark:text-white">

@@ -11,10 +11,7 @@ export default function About() {
 
         {/* Section Heading */}
         <div className="mb-16">
-          <p className="text-sm font-semibold tracking-[0.3em] uppercase text-gray-500 dark:text-gray-400 mb-4">
-            Get to know me
-          </p>
-
+  
           <h2 className="text-4xl md:text-6xl font-bold tracking-tight">
             About <span className="text-gray-400 dark:text-gray-500">Me.</span>
           </h2>

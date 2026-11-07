@@ -12,9 +12,7 @@ export default function Contact() {
         {/* Section Heading */}
         <div className="max-w-4xl mb-16">
 
-          <p className="text-sm font-semibold tracking-[0.3em] uppercase text-gray-500 dark:text-gray-400 mb-5">
-            Get in touch
-          </p>
+         
 
           <h2 className="text-5xl md:text-7xl font-bold tracking-tight leading-tight mb-8">
             Let's work
@@ -121,10 +119,6 @@ export default function Contact() {
 
         {/* Footer */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-8">
-
-          <p className="text-sm text-gray-500 dark:text-gray-400">
-            © 2026 {portfolioData.name}. All rights reserved.
-          </p>
 
           <a
             href="#home"
